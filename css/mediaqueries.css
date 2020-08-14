@@ -1,0 +1,212 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 550px) { 
+	nav{
+		height: 30vh;
+	}
+	nav img{
+		height: 18vh;
+	}
+	nav a{
+		font-size: 1rem;
+		margin-bottom: 5px;
+	}
+	button{
+		height: 10vh;
+		width: 45%;
+	}
+	button img{
+		height: 8vh;
+	}
+	.redes img{
+		width: 9vw;
+	}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	nav{
+		height: 25vh;
+	}
+	nav img{
+		height: 18vh;
+	}
+	nav a{
+		font-size: 1rem;
+		margin-bottom: 5px;
+	}
+	.img_normal{
+		width: 25vw;
+	}
+
+	.img_pequeña{
+		width: 15vw;
+	}
+	.redes img{
+		width: 7vw;
+	}
+	button{
+		width: 40%;
+		height: 
+	}
+	/*Para cortar la imagen*/
+	.trabajo header{
+		height: 90vh;
+		overflow: hidden;
+	}
+
+	.perfilcard{
+		width: 30vw;
+		margin: 30px;
+	}
+
+	.perfilcard h5{
+		display: none;
+	}
+
+	.iconos i{
+		padding: 5px;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	nav{
+		height: 15vw;
+		padding-right: 15%;
+	}
+	nav img{
+		height: 80%;
+		position: absolute;
+		left: 15%;
+	}
+	header h1{
+		margin-top: 100px;
+		margin-bottom: 20px;
+	}
+	.img_normal{
+		width: 20vw;
+	}
+
+	.img_pequeña{
+		width: 15vw;
+	}
+	.redes img{
+		width: 4vw;
+	}
+	button{
+		width: 50vw;
+		height: 10vh;
+	}
+	button img{
+		height: 80%;
+	}
+	/*Para cortar la imagen*/
+	.trabajo header{
+		height: 100vh;
+		overflow: hidden;
+	}
+	.perfilcard{
+		width: 20vw;
+		margin: 30px;
+	}
+	.perfilcard h4{
+		font-size: 1.4rem;
+	}
+
+	.perfilcard h5{
+		display: none;
+	}
+
+	.iconos{
+		padding: 3vw 5px;
+	}
+
+	.iconos i{
+		padding: 0px;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	nav{
+		height: 12vh;
+		padding-right: 15%;
+	}
+	nav img{
+		height: 80%;
+		position: absolute;
+		left: 15%;
+	}
+	nav li{
+		display: inline-block;
+		padding-left: 40px;
+		padding-top: 30px;
+	}
+	header h1{
+		font-size: 3.5rem;
+	}
+	header h2{
+		font-size: 2rem;
+	}
+	.hola img{
+		width: 15vw;
+	}
+	.hola h2{
+		font-size: 2.5rem;
+		margin: 20px;
+	}
+	.hola p{
+		line-height: 1.5;
+		font-size: 1.2rem;
+	}
+	button{
+		width: 30vw;
+	}
+	.img_normal{
+		width: 15vw;
+	}
+
+	.img_pequeña{
+		width: 10vw;
+	}
+	.habilidades h2{
+		font-size: 3rem;
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+	}
+
+	.perfilcard{
+		width: 15vw;
+		margin: 30px;
+	}
+
+	.perfilcard h5{
+		display: none;
+	}
+
+	.iconos i{
+		padding: 5px;
+	}
+
+	.iconos{
+		padding: 1.5vw 5px;
+	}
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	nav{
+		height: 15vh;
+		padding-right: 15%;
+		padding: 10px 20px;
+		font-size: 1.4rem;
+	}
+	nav img{
+		height: 85%;
+		position: absolute;
+		left: 15%;
+	}
+}
